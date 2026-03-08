@@ -25,4 +25,4 @@ jobs:
 
       - name: Compile firmware
         run: |
-          arduino-cli compile --fqbn esp32:esp32:esp32 robot-firmware
+          arduino-cli compile --fqbn esp32:esp32:esp32 robot-firmware/esp32_cleaner.ino
